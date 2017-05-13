@@ -3,7 +3,7 @@ This is an introduction to JavaScript testing using Mocha and Karma for the amaz
 
 We'll go over how to setup your environment and some simple testing techniques
 
-To avoid the potential catastrophes of live coding, this repo uses a series of tags that can be used to capture various phases of the [development process](#development-process).
+To avoid the potential catastrophes of live coding, this repo uses a series of feature branches that can be used to capture various phases of the [development process](#development-process).
 
 # Setting up the environment
 Run `npm install` to set up the dependencies
@@ -26,14 +26,19 @@ Run `npm run tests` to run the tests
 To avoid the hazards of live coding, this repo has a series of feature branchs in git that allow you to quickly jump to various phases in the development process
 
 To jump to a particular stage, run
-`git checkout -b <branch-name>
+
+`git checkout -b branch-name`
+
+e.g.
+
+`git checkout setup-env`
 
 ## Branches
 
 ### setup-env
 This branch shows the bare bones test environment and two simple tests, one passing and one failing, in `dummy-spec.js`.
 
-### #first-test
+### first-test
 This branch gives us our first real test, that the calculator can add two numbers.  It fails, why????
 
 ### first-passing-test
@@ -55,7 +60,8 @@ Making the tests pass is an exercise for the reader.
 
 **Remember for look for opportunities to refactor your code as you go**
 
-# Additional things to test for/implement/think about going forward
+# Going Forward
+Here are some things to think about as you go forward
 
 * What happens when one of the operands is null
 * What happens if one of the operands is not a number or not a string that can be converted to a number
@@ -65,4 +71,18 @@ Making the tests pass is an exercise for the reader.
 * What other operations can you add to your calculator, sqrt, power, etc
 
 Your tests are the specifications of your code, that's why they are called 'specs'.  They are a form of documentation
+
+# References
+There are a lot of great references and tutorials out there, and I used the following references in preparation for this presentation
+
+* https://sean.is/writing/client-side-testing-with-mocha-and-karma/
+* http://www.bradoncode.com/blog/2015/02/27/karma-tutorial/
+* http://www.syntaxsuccess.com/viewarticle/writing-jasmine-unit-tests-in-es6
+* https://semaphoreci.com/community/tutorials/getting-started-with-node-js-and-mocha
+* https://x-team.com/blog/setting-up-javascript-testing-tools-for-es6/
+
+I would also encourage you to learn more about test driven development (TDD) and see if it is something for you.
+
+* https://semaphoreci.com/community/tutorials/getting-started-with-tdd-in-react
+* http://jrsinclair.com/articles/2016/gentle-introduction-to-javascript-tdd-intro/
 
