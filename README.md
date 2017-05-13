@@ -48,5 +48,21 @@ Implement subtract, multiply, divide for the calculator
 ### before-hook
 [Before hooks](https://mochajs.org/#hooks) run before the tests in your suite and are used to set up common test conditions.  There are also after hooks for any needed cleanup
 
+### working-with-strings
+Add the notion of [context](https://mochajs.org/#bdd) to describe a different set of conditions to test under.  Makes the tests more expressive and logically grouped
 
+Making the tests pass is an exercise for the reader.
+
+**Remember for look for opportunities to refactor your code as you go**
+
+# Additional things to test for/implement/think about going forward
+
+* What happens when one of the operands is null
+* What happens if one of the operands is not a number or not a string that can be converted to a number
+* What happens if you divide by zero
+* What are the maximum size of numbers that you can operate on, see [MAX_SAFE_INTEGER](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MAX_SAFE_INTEGER)
+* How does your calculator deal with floating point numbers and number of digits
+* What other operations can you add to your calculator, sqrt, power, etc
+
+Your tests are the specifications of your code, that's why they are called 'specs'.  They are a form of documentation
 
