@@ -45,3 +45,8 @@ Add more specs (subtract, multiply, divide) for the basic functions of the calcu
 ### basic-operations
 Implement subtract, multiply, divide for the calculator
 
+### before-hook
+[Before hooks](https://mochajs.org/#hooks) run before the tests in your suite and are used to set up common test conditions.  There are also after hooks for any needed cleanup
+
+
+
