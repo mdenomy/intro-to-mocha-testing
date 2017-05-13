@@ -72,20 +72,6 @@ Here are some things to think about as you go forward
 
 Your tests are the specifications of your code, that's why they are called 'specs'.  They are a form of documentation
 
-# References
-There are a lot of great references and tutorials out there, and I used the following references in preparation for this presentation
-
-* https://sean.is/writing/client-side-testing-with-mocha-and-karma/
-* http://www.bradoncode.com/blog/2015/02/27/karma-tutorial/
-* http://www.syntaxsuccess.com/viewarticle/writing-jasmine-unit-tests-in-es6
-* https://semaphoreci.com/community/tutorials/getting-started-with-node-js-and-mocha
-* https://x-team.com/blog/setting-up-javascript-testing-tools-for-es6/
-
-I would also encourage you to learn more about test driven development (TDD) and see if it is something for you.
-
-* https://semaphoreci.com/community/tutorials/getting-started-with-tdd-in-react
-* http://jrsinclair.com/articles/2016/gentle-introduction-to-javascript-tdd-intro/
-
 # Further Reading
 
 ## Mocha
@@ -111,3 +97,16 @@ Check out the [Mocha Wiki](https://github.com/mochajs/mocha/wiki) for more in de
 ## Enzyme
 [Enzyme](http://airbnb.io/enzyme/) is a JavaScript testing utility for testing React code
 
+# References
+There are a lot of great references and tutorials out there, and I used the following references in preparation for this presentation
+
+* https://sean.is/writing/client-side-testing-with-mocha-and-karma/
+* http://www.bradoncode.com/blog/2015/02/27/karma-tutorial/
+* http://www.syntaxsuccess.com/viewarticle/writing-jasmine-unit-tests-in-es6
+* https://semaphoreci.com/community/tutorials/getting-started-with-node-js-and-mocha
+* https://x-team.com/blog/setting-up-javascript-testing-tools-for-es6/
+
+I would also encourage you to learn more about test driven development (TDD) and see if it is something for you.
+
+* https://semaphoreci.com/community/tutorials/getting-started-with-tdd-in-react
+* http://jrsinclair.com/articles/2016/gentle-introduction-to-javascript-tdd-intro/
