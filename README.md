@@ -39,3 +39,5 @@ This branch gives us our first real test, that the calculator can add two number
 ### first-passing-test
 This branc implements the `add` function of the calculator, making our previously failing test pass
 
+### more-tests
+Add more specs (subtract, multiply, divide) for the basic functions of the calculator
