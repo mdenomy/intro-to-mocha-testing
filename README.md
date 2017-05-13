@@ -41,3 +41,7 @@ This branc implements the `add` function of the calculator, making our previousl
 
 ### more-tests
 Add more specs (subtract, multiply, divide) for the basic functions of the calculator
+
+### basic-operations
+Implement subtract, multiply, divide for the calculator
+
