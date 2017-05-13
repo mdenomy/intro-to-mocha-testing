@@ -1,15 +1,19 @@
 # Overview
-This is an introduction to JavaScript testing using Mocha and Karma for the amazing developers at Resilient Coders.
+This is an introduction to JavaScript testing using Mocha and Karma for the amazing developers at [Resilient Coders](http://www.resilientcoders.org/).
 
 We'll go over how to setup your environment and some simple testing techniques
 
 To avoid the potential catastrophes of live coding, this repo uses a series of feature branches that can be used to capture various phases of the [development process](#development-process).
 
 # Setting up the environment
-Run `npm install` to set up the dependencies
+To install the dependencies, run
+
+`npm install`
 
 # Running the tests
-Run `npm run tests` to run the tests
+To execute the tests, run
+
+`npm run tests`
 
 # Tools
 
