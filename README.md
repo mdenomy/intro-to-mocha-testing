@@ -32,3 +32,6 @@ To jump to a particular stage, run
 
 ### setup-env
 This branch shows the bare bones test environment and two simple tests, one passing and one failing, in `dummy-spec.js`.
+
+## #first-test
+This branch gives us our first real test, that the calculator can add two numbers.  It fails, why????
