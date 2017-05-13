@@ -86,3 +86,28 @@ I would also encourage you to learn more about test driven development (TDD) and
 * https://semaphoreci.com/community/tutorials/getting-started-with-tdd-in-react
 * http://jrsinclair.com/articles/2016/gentle-introduction-to-javascript-tdd-intro/
 
+# Further Reading
+
+## Mocha
+I strongly encourage you to read the full documentation for [Mocha](https://mochajs.org/), especialy when working with
+
+* [promises](https://mochajs.org/#working-with-promises)
+* [asynchronous code](https://mochajs.org/#asynchronous-code)
+
+Check out the [Mocha Wiki](https://github.com/mochajs/mocha/wiki) for more in depth topics
+
+## Expect.js
+[Expect.js](https://github.com/mjackson/expect) is a great tool for writing more expressive expectations, and also includes [spies](https://github.com/mjackson/expect#spies) for mocking out dependencies to your code.  Spies and mocks are beyond the scope of the discussion here, but are a way to isolate your code under test from dependencies on other code.  Using them can make your tests more robust and less likely to break if other, unrelated code changes.
+
+## Nock.js
+[Nock](https://github.com/node-nock/nock) allows you to stub out HTTP requests to external services in your tests.  It is general bad to make external requests in your tests for a few reasons
+
+* makes your tests really slow
+* may cause you to hit rate limits on your APIs
+
+## Chai
+[Chai](http://chaijs.com/) is another assertion library that can make your tests more expressive
+
+## Enzyme
+[Enzyme](http://airbnb.io/enzyme/) is a JavaScript testing utility for testing React code
+
