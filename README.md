@@ -17,6 +17,9 @@ To execute the tests, run
 
 # Tools
 
+## npm
+[npm](https://www.npmjs.com/) is a package manager for JavaScript.  We use it to install required dependencies and to run our test script.  You can install npm by installing [node](https://nodejs.org/en/)
+
 ## Mocha
 [Mocha](https://mochajs.org/) is a testing _framework_.  It provides a domain specific language (DSL) for allowing you to write tests.
 
