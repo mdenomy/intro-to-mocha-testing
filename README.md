@@ -101,8 +101,11 @@ Check out the [Mocha Wiki](https://github.com/mochajs/mocha/wiki) for more in de
 ## Chai
 [Chai](http://chaijs.com/) is another assertion library that can make your tests more expressive
 
+## Jest
+[Jest](https://facebook.github.io/jest/) is a testing utility, developed by Facebook, for testing React code.
+
 ## Enzyme
-[Enzyme](http://airbnb.io/enzyme/) is a JavaScript testing utility for testing React code
+[Enzyme](http://airbnb.io/enzyme/) is another JavaScript testing utility for testing React code
 
 # References
 There are a lot of great references and tutorials out there, and I used the following references in preparation for this presentation
